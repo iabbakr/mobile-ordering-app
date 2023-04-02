@@ -69,6 +69,7 @@ span{
     background-color: lightgreen;
     width: auto;
     padding: 10px 30px;
+    align-items: center;
 }
 h3{
 text-align: center;
