@@ -4,6 +4,7 @@ body {
 header{
     display: ;
     border: 1px solid black;
+    background-image: url("/images/header.jpg");
 }
 .header-info{
     margin-left: 50px;
