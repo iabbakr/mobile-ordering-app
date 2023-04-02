@@ -17,6 +17,11 @@ header{
 .sec-img{
     width: 50px;
     height: 45px;
+    border: 1px solid red;
+}
+.item-info{
+    border: 1px solid red;
+
 }
 button{
     border-radius: 100px;
