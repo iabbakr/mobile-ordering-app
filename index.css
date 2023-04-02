@@ -16,7 +16,9 @@ section{
 .col{
     display: flex;
     flex-direction: row;
-    margin: auto 50px;
+    margin-top: 10px;
+    margin-left:50px;
+    margin-right:50px;
     border-bottom: 1px solid black;
 }
 .sec-img{
