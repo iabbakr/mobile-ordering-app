@@ -11,6 +11,15 @@ header{
 section{
     padding: 20px;
 }
+h1{
+
+}
+h4{
+    margin: 0;
+}
+p{
+
+}
 
 .col{
     display: flex;
