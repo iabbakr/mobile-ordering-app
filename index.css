@@ -35,4 +35,5 @@ button{
     border-radius: 100px;
     height: 25%;
     width: auto;
+    align-items: flex-end;
 }
