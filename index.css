@@ -15,5 +15,7 @@ header{
     justify-content: space-around;
 }
 button{
-    border-radius: 50%;
+    border-radius: 25px;
+    height: 50px;
+    width: auto;
 }
