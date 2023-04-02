@@ -35,7 +35,7 @@ function handleOrderBtnClick(){
 
 
 function getCheckOutHtml(){
-    let checkOut = ''
+    let checkOut = '';
     menuArray.forEach(function(menu){
         
         checkOut += `
