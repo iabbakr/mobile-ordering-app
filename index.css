@@ -10,7 +10,6 @@ header{
 }
 section{
     padding: 20px;
-    border: 1px solid black;
 }
 
 .col{
@@ -24,17 +23,15 @@ section{
 .sec-img{
     width: 120px;
     height: 90px;
-    border: 1px solid red;
 }
 .item-info{
-    border: 1px solid red;
     margin-left: 10px;
     width: 500px;
 
 }
 button{
     border-radius: 100px;
-    border: 1px solid black
+    border: 1px solid black;
     height: 45px;
     width: 45px;
 }
