@@ -58,6 +58,7 @@ button{
 
 }
 .menu-check{
+    padding: 6px;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid black;
@@ -66,8 +67,10 @@ button{
 .menu-bottom{
     display: flex;
     justify-content: space-between;
+    padding: 6px;
 }
 span{
+
 
 }
 .order-btn{
