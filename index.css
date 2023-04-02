@@ -16,7 +16,6 @@ section{
 .col{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
 }
 .sec-img{
     width: 50px;
