@@ -16,6 +16,7 @@ section{
 .col{
     display: flex;
     flex-direction: row;
+    margin: auto 50px;
 }
 .sec-img{
     width: 50px;
