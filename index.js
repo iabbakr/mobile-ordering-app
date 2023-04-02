@@ -3,7 +3,7 @@ import { menuArray } from './data.js';
 
 document.addEventListener('click', function(e){
     if(e.target.id === 'pizza-btn'){
-        handlePizzaClick(menuId);
+        handlePizzaClick();
     }else if(e.target.id === 'burger-btn'){
         handleBurgerClick();
     }else if(e.target.id === 'donut-btn'){
