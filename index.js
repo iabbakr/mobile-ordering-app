@@ -2,35 +2,39 @@ import {menuArray} from './data.js';
 
 
 document.addEventListener('click', function(e){
-
+    if(e.target.id === 'pizza-btn'){
+        handlePizzaClick();
+    }else if(e.target.id === 'burger-btn'){
+        handleBurgerClick();
+    }else if(e.target.id === 'donut-btn'){
+        handleDonutclick();
+    }else if(e.target.id === 'order-btn')
+        handleOrderBtnClick();
 });
 
 
 
-function getOrderHtml(){
+function handlePizzaClick(menuId){
 
 
 };
 
-function getPayHtml(){
-    let pay = `
-    `
+function handleBurgerClick(menuId){
 
 };
-function getSucHtml(){
+function handleDonutclick(menuId){
 
 };
 
-function render(){
-    document.getElementById('order-info').innerHTML;
-}
+function handleOrderBtnClick(){
 
-menuArray.forEach(function(menu){
+};
 
-})
-
-
-let checkOut = `
+function getCheckOutHtml(){
+    let checkOut = ''
+    menuArray.forEach(function(menu){
+        
+        checkOut += `
     <div class="menu">
                     <h3>Your order</h3>
                     <div class="menu-check">
@@ -57,3 +61,11 @@ let checkOut = `
                 </div>
     
     `;
+    });
+    return checkOut;
+};
+
+function render(){
+    document.getElementById('order-info').innerHTML = getCheckOutHtml;
+};
+
