@@ -14,8 +14,15 @@ document.addEventListener('click', function(e){
 
 
 
-function handlePizzaClick(){
-    render();
+function handlePizzaClick(menuId){
+    const targetMenuObj = menuArray.filter(function(menu){
+        return menu.id === menuId;
+    })[0];
+    if(targetMenuObj){
+        render();
+
+    };
+    
 
 };
 
