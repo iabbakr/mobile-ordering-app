@@ -19,9 +19,10 @@ function handlePizzaClick(menuId){
         return menu.id === menuId;
     })[0];
     if(targetMenuObj){
-        render();
+        
 
     };
+    render();
     
 
 };
