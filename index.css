@@ -5,6 +5,11 @@ header{
     display: ;
     border: 1px solid black;
 }
+.col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 button{
     border-radius: 50%;
 }
