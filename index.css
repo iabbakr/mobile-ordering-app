@@ -29,6 +29,7 @@ section{
 .item-info{
     border: 1px solid red;
     margin-left: 10px;
+    width: 300px;
 
 }
 button{
