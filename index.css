@@ -5,6 +5,8 @@ header{
     display: ;
     border: 1px solid black;
     background-image: url("/images/header.jpg");
+    height: auto;
+    width: auto;
 }
 .header-info{
     margin-left: 50px;
