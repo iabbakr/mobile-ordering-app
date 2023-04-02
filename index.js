@@ -67,7 +67,6 @@ function getCheckOutHtml(){
     
     `
     })
-    return checkOut;
 };
 
 function render(){
