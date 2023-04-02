@@ -53,6 +53,7 @@ button{
 
 .menu{
 
+
 }
 .menu-check{
     border-bottom: 1px solid black;
@@ -66,4 +67,7 @@ span{
     background-color: lightgreen;
     width: auto;
     padding: 10px 30px;
+}
+h3{
+text-align: center;
 }
