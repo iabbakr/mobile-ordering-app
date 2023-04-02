@@ -15,7 +15,7 @@ document.addEventListener('click', function(e){
 
 
 function handlePizzaClick(menuId){
-    const targetMenuId = menuArray.filter(function(){
+    const targetMenuId = menuArray.filter(function(menu){
         return menu.id = menuId;
     })
 
