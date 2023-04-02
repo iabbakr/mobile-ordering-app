@@ -4,5 +4,7 @@ body {
 header{
     display: ;
     border: 1px solid black;
-
+}
+.fee{
+    border-radius: 50%;
 }
