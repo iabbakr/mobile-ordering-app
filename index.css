@@ -5,6 +5,10 @@ header{
     display: ;
     border: 1px solid black;
 }
+.header-info{
+    margin-left: 40px;
+}
+
 .col{
     display: flex;
     flex-direction: row;
