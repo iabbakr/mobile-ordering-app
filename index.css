@@ -5,6 +5,7 @@ header{
     display: ;
     border: 1px solid black;
     background-image: url("/images/header.jpg");
+
 }
 .header-info{
     margin-left: 50px;
@@ -28,6 +29,7 @@ p{
     margin-top: 10px;
     margin-left:50px;
     margin-right:50px;
+    border-bottom: 1px solid black;
 }
 .sec-img{
     width: 120px;
