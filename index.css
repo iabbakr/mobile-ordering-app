@@ -2,7 +2,7 @@ body {
     margin: 0;
 } 
 header{
-    background-color: aqua;
+    border: 1px solid black;
 
 }
 .header-info{
