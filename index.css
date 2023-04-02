@@ -2,8 +2,7 @@ body {
     margin: 0;
 } 
 header{
-    height: auto;
-    background-image: url("/images/header.jpg");
+    background-color: aqua;
 
 }
 .header-info{
