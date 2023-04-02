@@ -2,8 +2,7 @@ body {
     margin: 0;
 } 
 header{
-    display: ;
-    border: 1px solid black;
+    height: auto;
     background-image: url("/images/header.jpg");
 
 }
