@@ -14,16 +14,16 @@ document.addEventListener('click', function(e){
 
 
 
-function handlePizzaClick(menuId){
+function handlePizzaClick(){
     render();
 
 };
 
-function handleBurgerClick(menuId){
+function handleBurgerClick(){
     render();
 
 };
-function handleDonutclick(menuId){
+function handleDonutclick(){
     render()
 
 };
@@ -32,7 +32,6 @@ function handleOrderBtnClick(){
     render()
 
 };
-
 
 function getCheckOutHtml(){
     let checkOut = '';
@@ -65,7 +64,7 @@ function getCheckOutHtml(){
                 </div>
     
     `;
-    });
+    })
     return checkOut;
 };
 
