@@ -15,20 +15,24 @@ document.addEventListener('click', function(e){
 
 
 function handlePizzaClick(menuId){
-
+    render();
 
 };
 
 function handleBurgerClick(menuId){
+    render();
 
 };
 function handleDonutclick(menuId){
+    render()
 
 };
 
 function handleOrderBtnClick(){
+    render()
 
 };
+
 
 function getCheckOutHtml(){
     let checkOut = ''
