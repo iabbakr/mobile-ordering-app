@@ -1,4 +1,4 @@
-import {menuArray} from './data.js';
+import { menuArray } from './data.js';
 
 
 document.addEventListener('click', function(e){
@@ -65,7 +65,7 @@ function getCheckOutHtml(){
                     
                 </div>
     
-    `;
+    `
     })
     return checkOut;
 };
