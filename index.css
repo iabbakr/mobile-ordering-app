@@ -8,6 +8,10 @@ header{
 .header-info{
     margin-left: 50px;
 }
+section{
+    padding: 20px;
+    border: 1px solid black;
+}
 
 .col{
     display: flex;
