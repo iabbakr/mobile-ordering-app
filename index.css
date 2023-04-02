@@ -19,7 +19,7 @@ h4{
     margin: 0;
 }
 p{
-    margin: 0;
+    margin-top: 0;
 
 }
 
@@ -29,7 +29,6 @@ p{
     margin-top: 10px;
     margin-left:50px;
     margin-right:50px;
-    border-bottom: 1px solid black;
 }
 .sec-img{
     width: 120px;
