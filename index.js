@@ -2,7 +2,7 @@ import { menuArray } from './data.js';
 
 
 document.addEventListener('click', function(e){
-    if(e.target.id === 'pizza-btn'){
+    if(e.target.burger === 'pizza-btn'){
         handlePizzaClick();
     }else if(e.target.id === 'burger-btn'){
         handleBurgerClick();
@@ -25,6 +25,7 @@ function handlePizzaClick(menuId){
 };
 
 function handleBurgerClick(){
+    if()
     render();
 
 };
@@ -42,11 +43,12 @@ function getCheckOutHtml(){
     let checkOut = '';
     menuArray.forEach(function(menu){
         
+        
         checkOut += `
                         <div class="menu">
                             <h3>Your order</h3>
                             <div class="menu-check">
-                                            <span class="">
+                                            <span id="namee">
                                             ${menu.name} 
                                             </span>
                                             <span class="">
