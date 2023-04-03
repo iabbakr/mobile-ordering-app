@@ -76,4 +76,5 @@ function getCheckOutHtml(){
 function render(){
     document.getElementById('order-info').innerHTML = getCheckOutHtml;
 };
+render();
 
