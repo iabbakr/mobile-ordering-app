@@ -17,7 +17,7 @@ document.addEventListener('click', function(e){
 function handlePizzaClick(menuId){
     const targetMenuId = menuArray.filter(function(menu){
         return menu.id = menuId;
-    })
+    });
 
     render();
     
@@ -68,8 +68,9 @@ function getCheckOutHtml(){
                                         
                                     </div>
                         
-                        `
-    })
+                        `;
+    });
+    return checkOut;
 };
 
 function render(){
